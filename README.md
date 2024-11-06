@@ -5,11 +5,9 @@ Home: https://github.com/vmware/pyvmomi
 
 Package license: Apache Software
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyvmomi-feedstock/blob/master/LICENSE.txt)
 
 Summary: VMware vSphere Python SDK
-
-
 
 Current build status
 ====================
