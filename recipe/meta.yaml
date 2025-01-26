@@ -1,5 +1,5 @@
 {% set name = "pyvmomi" %}
-{% set version = "7.0" %}
+{% set version = "8.0.1.0.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 4e1802494a6bbc4c3be36afd11f730e4a85094b2074e9d5806a47131cf788232
+  sha256: 8aeccd9e4adbbecba2512d7a94488edec44ce481d7072000f5fc524e29c395f3
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: '{{ PYTHON }} -m pip install . -vv '
 
@@ -21,7 +21,6 @@ requirements:
     - setuptools
   run:
     - python >={{ python_min }}
-    - requests >=2.3.0
     - six >=1.7.3
 
 test:
