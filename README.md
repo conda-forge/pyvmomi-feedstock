@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyvmomi-feedsto
 
 Home: https://github.com/vmware/pyvmomi
 
-Package license: Apache Software
+Package license: Apache-2.0
 
 Summary: VMware vSphere Python SDK
 
@@ -143,6 +143,7 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@maresb](https://github.com/maresb/)
 * [@pg-hbk](https://github.com/pg-hbk/)
 * [@sy-hbk](https://github.com/sy-hbk/)
 
