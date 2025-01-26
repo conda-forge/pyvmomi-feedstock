@@ -1,5 +1,5 @@
 {% set name = "pyvmomi" %}
-{% set version = "8.0.1.0.2" %}
+{% set version = "8.0.3.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 8aeccd9e4adbbecba2512d7a94488edec44ce481d7072000f5fc524e29c395f3
+  sha256: db795c960159cfa3c81e6af4cf1f46618e61cf0349db1666de75df98a4f29c69
 
 build:
   number: 0
@@ -43,4 +43,4 @@ extra:
   recipe-maintainers:
     - pg-hbk
     - sy-hbk
-    - maresb 
+    - maresb
