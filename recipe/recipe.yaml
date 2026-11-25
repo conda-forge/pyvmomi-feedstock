@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: 9.1.0.0
+  version: "9.1.2.0"
 
 package:
   name: pyvmomi
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://github.com/vmware/pyvmomi/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 93a83b9d0bcb2004e9ff81f4549070462c66d9705b0a6c08795c105168e00ba5
+  sha256: bb803168715067b4afc26c11341d129db2c5e70d0345432de4bdb7da16920e02
 
 build:
   number: 0
